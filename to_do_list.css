@@ -1,0 +1,88 @@
+header, footer {
+  background-color: DarkSlateGray;
+  text-align: center;
+}
+
+article {
+  background-color: DarkSlateGray;
+  text-align: center;
+  width: auto;
+  height:auto;
+  font-family: Georgia;
+}
+
+.container_inputs{
+  background-color: DarkSlateGray;  
+  height:50px;
+  text-align: center;
+  padding-top: 40px;
+} 
+
+input[type="text"] {
+  height: 30px;
+  width: 50%;
+}
+
+.col{
+display:table-row;
+background-color: DarkSlateGray;
+}
+
+#to_be_done{
+  display:table-cell; 
+  float:left;
+  overflow: auto;
+  width: 475px;
+  height:400px;
+  background-color: red;
+  margin-left: 150px;
+  padding-left: 10px;
+  }
+
+#middle{
+  display:table-cell;
+  overflow: auto;
+  float:left;
+  width: 100px;
+  height:220px;
+  background-color: DarkSlateGray;
+  padding-top:180px;
+}
+
+#done{
+  display:table-cell;
+  overflow: auto;
+  float:left;
+  width: 475px;
+  height:400px;
+  background-color: white;
+  margin-right: 25px;
+  }
+
+.container_bottom{
+  background-color: DarkSlateGray; 
+  height:70px; 
+} 
+
+.web_inner_title {
+  text-align: center;
+  font-family: Georgia;
+  font-size: 250%;
+  color: teal;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 10px 0px 0px 0px;
+  }
+
+.last{
+  text-align: center;
+  margin-top: 0px;
+  }
+
+.pendings {
+    background-color: red;
+}
+
+.nopendings {
+    background-color: white;
+}

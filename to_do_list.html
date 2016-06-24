@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CHECK LIST</title>
+    	<link rel="stylesheet" type="text/css" href="to_do_list.css">
+    	<script type="text/javascript" src="to_do_list.js"></script>
+    	<meta charset="utf-8">
+	</head>
+  	<body>
+    	<header>
+    		<p class="web_inner_title"> <strong>TASKS POST-IT</strong></p>
+    	</header>
+    	<article>
+	    	<div class="container_inputs">
+	    		<input type="text" id="txt"><button onclick="addtask()">ADD NEW TASK</button>
+	    		<pre>    <strong>TASKS TO GO!</strong>               <strong>TASKS DOWN!</strong></pre>
+	    	</div>	
+	    	<div class="col">	
+	    		<div id="to_be_done"></div>
+				<div id="middle"></div>
+				<div id="done"></div>
+	    	</div>
+	    	<div class="container_bottom">
+			<pre>     <button class="pendings" onclick="clear_to_be_done()">CLEAR</button>             <button class="nopendings" onclick="clear_done()">CLEAR</button></pre>
+	    	</div>	
+		</article>
+		<footer>
+			<p class="last"> Pazrg 2016 |All rights reserved </p>
+		</footer>
+  	</body>
+</html>
+
